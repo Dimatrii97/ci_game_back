@@ -1,0 +1,1491 @@
+﻿name: СолянОчка3
+date: 22.07.2024
+difficulty: 8
+version: 5
+id: 5ffeea5e-f1ad-4ecc-b8a9-47e54df91fd8
+tags:
+- Аниме
+- Мультфильмы
+- Комиксы
+- Смешанная (солянка)
+- Игры
+- Кино
+- ' Рок'
+global: {}
+rounds:
+- name: 1
+  themes:
+  - name: Мультики по музыке
+    questions:
+    - price: 100
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: background
+            type: audio
+            value: остров.mp3
+            isRef: true
+      right: [Остров сокровищ]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: background
+            type: audio
+            value: дюдюка.mp3
+            isRef: true
+      right: [Подарок для слона]
+    - price: 300
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: background
+            type: audio
+            value: джимми.mp3
+            isRef: true
+      right: [Джимми Кул]
+    - price: 400
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: background
+            type: audio
+            value: маска.mp3
+            isRef: true
+      right: [Маска]
+    - price: 500
+      typeName: secret
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: background
+            type: audio
+            value: цыпа.mp3
+            isRef: true
+        selectionMode:
+          simpleValue: exceptCurrent
+        price:
+          type: numberSet
+          numberSetValue: {}
+        theme: {}
+      right: [Цыплёнок Цыпа]
+    - price: 600
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: background
+            type: audio
+            value: в гости.mp3
+            isRef: true
+      right: [В гости к Робинсонам]
+  - name: Фильмы СССР
+    questions:
+    - price: 100
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Тот самый Мюнхгаузен.png
+            isRef: true
+      right: [Тот самый Мюнхгаузен]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: неуловимые.jpg
+            isRef: true
+      right: [Неуловимые мстители]
+    - price: 300
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: вечера на хуторе близ диканьки.png
+            isRef: true
+      right: [Вечера на хуторе близ Диканьки]
+    - price: 400
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: зорро.jpg
+            isRef: true
+      right: [Зорро]
+    - price: 500
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: чародеи.jpg
+            isRef: true
+      right: [Чародеи]
+    - price: 600
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: большая перемена.jpg
+            isRef: true
+      right: [Большая перемена]
+  - name: Кто хочет стать миллионером?
+    questions:
+    - price: 100
+      typeName: secret
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Что в сказках было семимильным?
+        answerType:
+          simpleValue: select
+        answerOptions:
+          type: group
+          groupValue:
+            A:
+              type: content
+              contentValue:
+              - placement: screen
+                value: ковёр
+            B:
+              type: content
+              contentValue:
+              - placement: screen
+                value: одежда
+            C:
+              type: content
+              contentValue:
+              - placement: screen
+                value: сапоги
+            D:
+              type: content
+              contentValue:
+              - placement: screen
+                value: мотоцикл
+        selectionMode:
+          simpleValue: exceptCurrent
+        price:
+          type: numberSet
+          numberSetValue:
+            minimum: 100
+            maximum: 100
+        theme: {}
+      right: [C]
+    - price: 200
+      typeName: secret
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Как с 1837 года стали называть Александра Сергеевича Пушкина?
+        answerType:
+          simpleValue: select
+        answerOptions:
+          type: group
+          groupValue:
+            A:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Солнце русской поэзии
+            B:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Матёрый человечище
+            C:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Отец русской демократии
+            D:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Кукуруза души моей
+        selectionMode:
+          simpleValue: exceptCurrent
+        price:
+          type: numberSet
+          numberSetValue:
+            minimum: 200
+            maximum: 200
+        theme: {}
+      right: [A]
+    - price: 300
+      typeName: secret
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Кто в 1990 году подтвердил теорию о наличии подземного хода из Кремля в храм Василия Блаженного?
+        answerType:
+          simpleValue: select
+        answerOptions:
+          type: group
+          groupValue:
+            A:
+              type: content
+              contentValue:
+              - placement: screen
+                value: медведь
+            B:
+              type: content
+              contentValue:
+              - placement: screen
+                value: сокол
+            C:
+              type: content
+              contentValue:
+              - placement: screen
+                value: собака
+            D:
+              type: content
+              contentValue:
+              - placement: screen
+                value: барсук
+        selectionMode:
+          simpleValue: exceptCurrent
+        price:
+          type: numberSet
+          numberSetValue:
+            minimum: 600
+            maximum: 600
+        theme: {}
+      right: [D]
+    - price: 400
+      typeName: secret
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Какой элемент получил своё название из-за синей линии в его спектре
+        answerType:
+          simpleValue: select
+        answerOptions:
+          type: group
+          groupValue:
+            A:
+              type: content
+              contentValue:
+              - placement: screen
+                value: родий
+            B:
+              type: content
+              contentValue:
+              - placement: screen
+                value: церий
+            C:
+              type: content
+              contentValue:
+              - placement: screen
+                value: индий
+            D:
+              type: content
+              contentValue:
+              - placement: screen
+                value: нептуний
+        selectionMode:
+          simpleValue: exceptCurrent
+        price:
+          type: numberSet
+          numberSetValue:
+            minimum: 400
+            maximum: 400
+        theme: {}
+      right: [C]
+    - price: 500
+      typeName: secret
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Какой советский фильм получил "Золотую пальмовую ветвь"?
+        answerType:
+          simpleValue: select
+        answerOptions:
+          type: group
+          groupValue:
+            A:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Летят журавли
+            B:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Пять вечеров
+            C:
+              type: content
+              contentValue:
+              - placement: screen
+                value: В бой идут одни старики
+            D:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Когда деревья были большими
+        selectionMode:
+          simpleValue: exceptCurrent
+        price:
+          type: numberSet
+          numberSetValue:
+            minimum: 400
+            maximum: 400
+        theme: {}
+      right: [A]
+    - price: 600
+      typeName: secret
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Какой псевдоним выбрал Пушкин для критических статей против Фаддея Булгарина?
+        answerType:
+          simpleValue: select
+        answerOptions:
+          type: group
+          groupValue:
+            A:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Ксенофонт Лисичкин
+            B:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Феофилакт Косичкин
+            C:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Прокопий Спичкин
+            D:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Анакреон Черничкин
+        selectionMode:
+          simpleValue: exceptCurrent
+        price:
+          type: numberSet
+          numberSetValue:
+            minimum: 600
+            maximum: 600
+        theme: {}
+      right: [B]
+  - name: Бурятские мультики
+    questions:
+    - price: 100
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Арифурэта Сильнейший ремесленник в мире.png
+            isRef: true
+      right: ['Арифурэта: Сильнейший ремесленник в мире']
+    - price: 200
+      typeName: secret
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: скитальцы.png
+            isRef: true
+        selectionMode:
+          simpleValue: exceptCurrent
+        price:
+          type: numberSet
+          numberSetValue:
+            minimum: 200
+            maximum: 200
+        theme: {}
+      right: [Скитальцы]
+    - price: 300
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Я стою на миллионах трупов.jpg
+            isRef: true
+      right: [Я стою на миллионах трупов]
+    - price: 400
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: печать ветра.png
+            isRef: true
+      right: [Печать ветра]
+    - price: 500
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Бесконечный Дендрограм.png
+            isRef: true
+      right: [Бесконечный Дендрограм]
+    - price: 600
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Мерри, пожирательница снов.png
+            isRef: true
+      right: ['Мерри, пожирательница снов']
+  - name: Старенькие игрули
+    questions:
+    - price: 100
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Как достать соседа.jpg
+            isRef: true
+      right: [Как достать соседа]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: готика.png
+            isRef: true
+      right: [Gothic II]
+    - price: 300
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Patapon.jpg
+            isRef: true
+      right: [Patapon]
+    - price: 400
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Prince of Persia Warrior Within.jpg
+            isRef: true
+      right: ['Prince of Persia: Warrior Within']
+    - price: 500
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Enclave.jpg
+            isRef: true
+      right: [Enclave]
+    - price: 600
+      typeName: stake
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: The Neverhood.png
+            isRef: true
+      right: [The Neverhood]
+  - name: Зелёный слоник сквозь вселенные
+    questions:
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: 1920x.webp
+            isRef: true
+      right: [Игра престолов]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Гарри-Поттер-Поттериана-зеленый-слоник-6420999.jpeg
+            isRef: true
+      right: [Гарри Поттер]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: сталкер.jpg
+            isRef: true
+      right: [S.T.A.L.K.E.R.]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Team-Fortress-2.jpeg
+            isRef: true
+      right: [Team Fortress 2]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: хартстоун.png
+            isRef: true
+      right: [Hearthstone]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: warhammer-40k.png
+            isRef: true
+      right: ['Warhammer 40,000']
+- name: 2
+  themes:
+  - name: Гарри Поттер
+    questions:
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Во время празднования Хэллоуина на первом году обучения Гарри, профессор Квиррелл сообщил широкой публике о тролле. Где по его заявлению находилось существо?
+      right: [В ПОДЗЕМЕЛЬЯХ!!!!]
+    - price: 400
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Последние три слова Альбуса Дамблдора перед смертью.
+      right: [Северус... прошу тебя...]
+    - price: 600
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: 'Где близнецы Уизли нашли Карту Мародеров? '
+      right: [Стащили её из кабинета Филча]
+    - price: 800
+      typeName: secret
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Какая татуировка, по словам Джинни, была набита у Рона? Хоть она и отказывалась говорить где...
+        answerType:
+          simpleValue: select
+        answerOptions:
+          type: group
+          groupValue:
+            A:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Клыка
+            B:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Пикси
+            C:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Оборотня
+            D:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Карликового пушистика
+        selectionMode:
+          simpleValue: exceptCurrent
+        price:
+          type: numberSet
+          numberSetValue: {}
+        theme: {}
+      right: [D]
+    - price: 1000
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Куда ходило Золотое Трио вместо Хэллоуина на втором году обучения?
+      right: [На 500-летний юбилей дня смерти Почти Безголового Ника]
+    - price: 1200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Кому помимо Гарри Поттера шляпа также предлагала выбор между двумя факультетами?
+      right: [Гермиона Грейнджер]
+    info:
+      comments:
+        text: на некоторые вопросы нельзя ответить не читая книг
+  - name: Фильмы категории г
+    questions:
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: 2.8.png
+            isRef: true
+      right: [2.8]
+    - price: 400
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: 4.2.png
+            isRef: true
+      right: [4.2]
+    - price: 600
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: 3.4.png
+            isRef: true
+      right: [3.4]
+    - price: 800
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: 4.4.png
+            isRef: true
+      right: [4.4]
+    - price: 1000
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: 3.7.png
+            isRef: true
+      right: [3.7]
+    - price: 1200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: 3.9.png
+            isRef: true
+      right: [3.9]
+    info:
+      comments:
+        text: нужно сказать рейтинг фильма на кинопоиске (+-0,5)
+  - name: Классика литературы
+    questions:
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Под каким деревом дважды размышлял о жизни Андрей Болконский﻿?
+      right: [Дуб]
+    - price: 300
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Илья Обломов запоминается всем читателям как образцовый лентяй. А можете вспомнить, как звали его слугу, который помогал барину функционировать?
+      right: [Захар]
+    - price: 400
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Какую фамилию Николай Гоголь﻿ придумал для бедного чиновника Акакия Акакиевича, главного героя повести «Шинель»﻿?
+      right: [Башмачкин]
+    - price: 500
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Вспомните, какое наказание получил Родион Раскольников﻿ за убийство старухи-процентщицы?
+      right: [Каторгу в Сибири]
+    - price: 600
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Вспомните, кто из персонажей пьесы «Горе от ума»﻿ Александра Грибоедова﻿ произнес знаменитую фразу «счастливые часов не наблюдают».
+      right: [Софья Фамусова]
+    - price: 800
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: В романе «Мастер и Маргарита»﻿ есть несколько персонажей-животных. Кота Бегемота﻿ помнят все. А как звали собаку, спутницу Понтия Пилата?
+      right: [Банга]
+  - name: Корабли
+    questions:
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Любимый корабль капитана Джека Воробья?
+      right: [Чёрная жемчужина]
+    - price: 300
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Первый в мире корабль класса линкор именовался "Дредноут" и был спущен в 1906 году. Во флоте какой страны он нёс службу?
+      right: [Великобритания]
+    - price: 400
+      typeName: secret
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: По названию какого судна стал потом называться целый класс военных кораблей?
+        answerType:
+          simpleValue: select
+        answerOptions:
+          type: group
+          groupValue:
+            A:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Каравелла
+            B:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Дредноут
+            C:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Корвет
+            D:
+              type: content
+              contentValue:
+              - placement: screen
+                value: Фрегат
+        selectionMode:
+          simpleValue: exceptCurrent
+        price:
+          type: numberSet
+          numberSetValue:
+            minimum: 400
+            maximum: 400
+        theme: {}
+      right: [B]
+    - price: 500
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Как называется самый большой военный корабль в истории человечества из когда-либо потопленных в ходе боевых действий?
+      right: [Линкор Ямато]
+    - price: 600
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Как назывался первый русский военный линейный корабль?
+      right: [Гото Предестинация]
+    - price: 800
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Какой корабль не произвёл по кораблям противника ни единого выстрела, но только одним своим присутствием сдерживал наступательные действия британского Королевского флота?
+      right: [Линкор Тирпиц]
+  - name: Отсылки симпсонов
+    questions:
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: хоббит.jpg
+            isRef: true
+      right: [Хоббит]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: пятница.jpg
+            isRef: true
+      right: [Пятниа 13-е (Джейсон Вурхиз)]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: отец.jpg
+            isRef: true
+      right: [Крёстный отец]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: метал.jpg
+            isRef: true
+      right: [Металлика]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: заводной.png
+            isRef: true
+      right: [Заводной апельсин]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Abbey Road.webp
+            isRef: true
+      right: [Abbey Road]
+  - name: Персонажи
+    questions:
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: гайка.jpg
+            isRef: true
+      right: [Гаечка]
+    - price: 300
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: яго.jpg
+            isRef: true
+      right: [Яго]
+    - price: 400
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Савос Арен.jpeg
+            isRef: true
+      right: [Савос Арен]
+    - price: 500
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Нелл Ту.jpg
+            isRef: true
+      right: [Неллиэль Ту Одельшванк  (Нелл Ту)]
+    - price: 600
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Мудрец Гоури.png
+            isRef: true
+      right: [Мудрец Гоури]
+    - price: 800
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: гир.webp
+            isRef: true
+      right: [Гир]
+- name: 3
+  themes:
+  - name: Манхва и Маньхуа
+    questions:
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: лукизм.jpg
+            isRef: true
+      right: [Лукизм]
+    - price: 300
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Магия Вернувшегося должна быть особенной.jpg
+            isRef: true
+      right: [Магия Вернувшегося должна быть особенной]
+    - price: 400
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: пик.jpg
+            isRef: true
+      right: [Пик боевых искусств]
+    - price: 500
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Король меча.jpg
+            isRef: true
+      right: [Король меча]
+    - price: 600
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Бессмертный мечник в обратном мире.jpg
+            isRef: true
+      right: [Бессмертный мечник в обратном мире]
+    - price: 800
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: я дитя.jpg
+            isRef: true
+      right: [Я - дитя этого дома]
+  - name: Фильмы
+    questions:
+    - price: 100
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: джуманджи.jpeg
+            isRef: true
+      right: [Джуманджи]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: хроники.jpeg
+            isRef: true
+      right: ['Хроники Нарнии: Лев, колдунья и волшебный шкаф']
+    - price: 300
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: принц персии.jpg
+            isRef: true
+      right: ['Принц Персии: Пески времени']
+    - price: 400
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: зелёный.jpg
+            isRef: true
+      right: [Зелёный Шершень]
+    - price: 500
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: не шутите с зоханом.jpg
+            isRef: true
+      right: [Не шутите с Зоханом]
+    - price: 600
+      typeName: secret
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: ученик.png
+            isRef: true
+        selectionMode:
+          simpleValue: exceptCurrent
+        price:
+          type: numberSet
+          numberSetValue:
+            minimum: 800
+            maximum: 800
+        theme: {}
+      right: [Ученик чародея]
+  - name: Мэмы
+    questions:
+    - price: 100
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: тактика.jpg
+            isRef: true
+        answer:
+          type: content
+          contentValue:
+          - placement: screen
+            type: video
+            value: У вас была какая-то тактика с самого начала_.mp4
+            isRef: true
+      right: ['У вас была какая-то тактика?']
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: А че догоняли.png
+            isRef: true
+        answer:
+          type: content
+          contentValue:
+          - placement: screen
+            type: video
+            value: А че догоняли.mp4
+            isRef: true
+      right: ['А че догоняли?']
+    - price: 300
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Наталья, морская пехота.png
+            isRef: true
+        answer:
+          type: content
+          contentValue:
+          - placement: screen
+            type: video
+            value: наталья.mp4
+            isRef: true
+      right: ['Наталья, морская пехота']
+    - price: 400
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: шарик не дали.png
+            isRef: true
+        answer:
+          type: content
+          contentValue:
+          - placement: screen
+            type: video
+            value: "'Никакого праздника! Меня сначала закрыли! Потом шарик не дали    Ничего НЕЛЬЗЯ! Нас   Э    со всеми.mp4"
+            isRef: true
+      right: ['Шарик не дали, ничего нельзя']
+    - price: 500
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: я трахну тебя.png
+            isRef: true
+        answer:
+          type: content
+          contentValue:
+          - placement: screen
+            type: video
+            value: Я трахну тебя в твою жопу, помнишь меня_.mp4
+            isRef: true
+      right: ['Я трахну тебя в твою жопу, помнишь меня?']
+    - price: 600
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: награда.png
+            isRef: true
+        answer:
+          type: content
+          contentValue:
+          - placement: screen
+            type: video
+            value: награда.mp4
+            isRef: true
+          - placement: screen
+            type: video
+            value: 3959046015603.mp4
+            isRef: true
+      right: ['Награда будет вилика, узри!']
+    info:
+      comments:
+        text: сказать название мема или описать происходящее
+  - name: Что слушает автор?
+    questions:
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: background
+            type: audio
+            value: Disturbed - Inside the Fire.mp3
+            isRef: true
+      right: [Disturbed - Inside the Fire]
+    - price: 400
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: background
+            type: audio
+            value: The Subways - Rock & Roll Queen.mp3
+            isRef: true
+      right: [The Subways - Rock & Roll Queen]
+    - price: 600
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: background
+            type: audio
+            value: Nine Lashes - Anthem Of The Lonely.mp3
+            isRef: true
+      right: [Nine Lashes - Anthem Of The Lonely]
+    - price: 800
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: background
+            type: audio
+            value: My Chemical Romance - Teenagers.mp3
+            isRef: true
+      right: [My Chemical Romance - Teenagers]
+    - price: 1000
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: background
+            type: audio
+            value: Oomph! - Labyrinth.mp3
+            isRef: true
+      right: [Oomph! - Labyrinth]
+    - price: 1200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: background
+            type: audio
+            value: Oh Wonder - White Blood.mp3
+            isRef: true
+      right: [Oh Wonder - White Blood]
+  - name: Комиксы
+    questions:
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Какой период принято считать «Золотым веком американских комиксов»?
+      right: [С 1938 года по 1955 год]
+    - price: 300
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: В каком комиксе впервые появился Человек-Паук?
+      right: ['Amazing Fantasy #15']
+    - price: 400
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Имя какого известного комиксиста носит первая премия в истории американской индустрии комиксов?
+      right: [Джека Кирби]
+    - price: 500
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: В каком комиксе впервые появился Камень Бесконечности?
+      right: ['Marvel Premiere # 1']
+      info:
+        comments:
+          text: тогда они назывались камни души
+    - price: 600
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Кем был отец Таноса?
+      right: ['из Вечных ']
+    - price: 800
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: Что означает термин «филактер»?
+      right: ['Облачко слов или мыслей персонажей, изображаемое в классических комиксах.']
+  - name: косплей 18+
+    questions:
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: 4m5iiJj1JfblIIqKTuha8.jpe
+            isRef: true
+      right: [Цири]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: photo_2024-01-29_09-47-13.jpg
+            isRef: true
+      right: [Харли Квинн]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: ero-cosplay-cosplay-Tifa-Lockhart-Final-Fantasy-VII-5449080 (1).jpeg
+            isRef: true
+      right: [Тифа]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: photo_2024-04-09_09-29-42.jpg
+            isRef: true
+      right: [Йор]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Рэйвен.png
+            isRef: true
+      right: [Рэйвен]
+    - price: 200
+      parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: photo_2024-03-18_12-03-43.jpg
+            isRef: true
+      right: [Фрирен]
+- name: ФИНАЛ
+  type: final
+  themes:
+  - name: Мультфильм по музыке
+    questions:
+    - parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: background
+            type: audio
+            value: металлика.mp3
+            isRef: true
+      right: [Металлопокалипсис]
+  - name: Комиксы
+    questions:
+    - parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            value: На каком музыкальном инструменте умеет играть Дракс?
+      right: [Саксофон]
+  - name: Игра
+    questions:
+    - parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Overlord.jpg
+            isRef: true
+      right: [Overlord]
+  - name: Аниме
+    questions:
+    - parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: screen
+            type: image
+            value: Nagi no Asukara.png
+            isRef: true
+      right: [Когда успокоится море/Безоблачное завтра]
+  - name: Это лучше не выбирать
+    questions:
+    - parameters:
+        question:
+          type: content
+          contentValue:
+          - placement: replic
+            value: Финала не будет, вам пиздец
+          - placement: screen
+            type: image
+            value: rBfhFTVsaIcC97Tg2nvqGQ.jpeg
+            isRef: true
+      right: ['']
+info:
+  authors: [Tomoe]
