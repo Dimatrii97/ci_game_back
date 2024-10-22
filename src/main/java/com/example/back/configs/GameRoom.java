@@ -1,5 +1,7 @@
 package com.example.back.configs;
 
+import com.example.back.users.Player;
+
 import java.util.List;
 
 public class GameRoom {

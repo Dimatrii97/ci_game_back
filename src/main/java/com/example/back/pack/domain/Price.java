@@ -1,4 +1,4 @@
-package com.example.back.configs;
+package com.example.back.pack.domain;
 
 import lombok.Builder;
 import lombok.Data;

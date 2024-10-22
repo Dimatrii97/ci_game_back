@@ -14,6 +14,7 @@ public class UserController {
     @MessageMapping("user/save")
     public boolean saveUsers() {
         saveUsersByRoom.execute();
+        return true;
     }
 
 

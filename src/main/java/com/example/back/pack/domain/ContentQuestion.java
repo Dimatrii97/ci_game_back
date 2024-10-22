@@ -1,16 +1,14 @@
-package com.example.back.configs;
+package com.example.back.pack.domain;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
-import java.util.List;
-
 @Data
 @Builder
+@AllArgsConstructor
 public class ContentQuestion {
     private ContentType type;
     private String value;
-    private List<String> right;
-    private Boolean isRef;
-    private String comment;
+    public boolean waitForFinish;
 }

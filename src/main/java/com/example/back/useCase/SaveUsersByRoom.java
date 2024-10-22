@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 public class SaveUsersByRoom {
 
     public boolean execute() {
-
+        return true;
     }
 }

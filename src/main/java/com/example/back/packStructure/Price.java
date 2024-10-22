@@ -1,0 +1,11 @@
+package com.example.back.packStructure;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.Data;
+
+@Data
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Price {
+    public String type;
+    public NumberSetValue numberSetValue;
+}

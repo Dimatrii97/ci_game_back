@@ -1,4 +1,4 @@
-package com.example.back.configs;
+package com.example.back.pack.domain;
 
 
 import lombok.Builder;
@@ -9,7 +9,6 @@ import java.util.List;
 @Builder
 public class PackGame {
     private String name;
-    private String id;
     private List<String> tags;
     private List<Round> rounds;
 }

@@ -1,4 +1,4 @@
-package com.example.back.configs;
+package com.example.back.pack.domain;
 
 import lombok.Builder;
 import lombok.Data;
@@ -9,4 +9,5 @@ import java.util.List;
 public class Round {
     private String name;
     private List<ThemeGame> themes;
+    public String type;
 }
